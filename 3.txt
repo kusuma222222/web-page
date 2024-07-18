@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REGISTRATION DETAILS</title>
+    </head>
+    <style>
+        .cn{
+            margin-left: 20%;
+        }
+
+    </style>
+    <body div class="body">
+        <h1>DETAILS OF THE STUDENT</h1>
+        <form>
+            FIRST NAME:<input type="text" id="fn" name="fn" placeholder="enter your name">
+            <br>
+            <br>
+            LAST NAME:<input type="text" id="ln" name="ln" placeholder="enter your surname">
+            <br>
+            <br>
+            GENDER:<input type="radio" name="radio"value="radio">MALE
+            <input type="radio" name="radio" value="radio">FEMALE
+            <br>
+            <br>
+            DOB:<input type="date" id="db" name="db">
+            <br>
+            <br>
+            STATE:<select name name="select">
+                <option value="AP">AP</option>
+                <option value="HP">HP</option>
+                <option value="UP">UP</option>
+            </select>
+            <br>
+            <br>
+            COUNTRY:<select name name="select">
+                <option value="INDIA">INDIA</option>
+                <option value="south america">SOUTH AMERICA</option>
+                <option value="south africa">SOUTH AFRICA</option>
+            </select>
+            <br>
+            <br>
+            MOBILE NUMBER:<input type="tel" id="no" name="no" placeholder="enter ur number">
+            <br>
+            <br>
+            COURSE:<input type="radio" name="radio" value="radio">CSE
+            <input type="radio" name="radio" value="radio">IT
+            <BR>
+            <BR>
+            GRADUATION:<INPUT TYPE="checkbox" NAME="CHECK" VALUE="CHECK">SSC
+            <INPUT TYPE="checkbox" NAME="CHECK" VALUE="CHECK">INTER
+            <INPUT TYPE="CHECKBOX" NAME="CHECK" VALUE="CHECK">UG
+            <br>
+            <br>
+            <input type="submit" name="submit" value="SUBMIT" >
+            <div class="cn">
+            <INPUT TYPE="RESET"  NAME="RESET" VALUE="RESET">
+            </div>
+        </form>
+    </body>
+</html>
+

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <ul>
+            <li>CSE</li>
+            <li>ECE</li>
+            <li>EEE</li>
+        </ul>
+    </body>
+</html>
+
